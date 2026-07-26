@@ -1,4 +1,4 @@
-# Framework Transformer-LLM untuk Sentimen Berbasis Aspek (Proyek SemEval)
+# Framework Transformer-LLM untuk Aspect-Level Sentiment (SemEval 2026)
 
 ## Ringkasan
 Proyek ini membandingkan dua pendekatan yang secara fundamental berbeda untuk tugas Dimensional Aspect Sentiment Triplet Extraction (DimASTE), yang diperkenalkan pada SemEval 2026 Task 3 Track A Subtask 2. DimASTE mengekstraksi triplet (aspek, opini, valensi-arousal) dari teks ulasan, melampaui label positif/negatif/netral konvensional untuk menggambarkan sentimen dalam skala emosi yang kontinu. Pekerjaan ini didokumentasikan dalam paper "Perbandingan Pendekatan BERT dan LLM untuk Dimensional Aspect Sentiment Triplet Extraction."
@@ -41,7 +41,7 @@ Hasil LLM dilaporkan berdasarkan evaluasi pada set data training penuh, bukan pa
 
 ---------------------------------------------------------------------------------
 
-# Transformer-LLM Framework for Aspect-Level Sentiment (SemEval Project)
+# Transformer-LLM Framework for Aspect-Level Sentiment (SemEval 2026)
 
 ## Overview
 This project compares two fundamentally different approaches to Dimensional Aspect Sentiment Triplet Extraction (DimASTE), a task introduced in SemEval 2026 Task 3 Track A Subtask 2. DimASTE requires extracting (aspect, opinion, valence-arousal) triplets from review text, going beyond conventional positive/negative/neutral labels to describe sentiment on a continuous emotional scale. The work is documented in the paper "Perbandingan Pendekatan BERT dan LLM untuk Dimensional Aspect Sentiment Triplet Extraction."
