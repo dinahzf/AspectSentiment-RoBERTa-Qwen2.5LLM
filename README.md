@@ -33,8 +33,9 @@ Python, PyTorch, Hugging Face Transformers, Unsloth, QLoRA, RoBERTa-base, Qwen2.
 
 ## Isi Repository
 - `DimASTE_dataset.jsonl` — dataset training yang sudah dibersihkan (bahasa Inggris, domain restoran dan laptop).
-- `AspectSentimentExtraction.ipynb` — notebook pipeline lengkap (pipeline RoBERTa, fine-tuning LLM, evaluasi).
-- `README.md` / `README_ID.md` — dokumentasi proyek dalam bahasa Inggris dan Indonesia.
+- `LLM_AspectSentiment.ipynb` — notebook pipeline lengkap (pipeline fine-tuning LLM dan evaluasi).
+- `RoBERTa_AspectSentiment.ipynb` — notebook pipeline lengkap (pipeline RoBERTa dan evaluasi).
+- `README.md` — dokumentasi proyek dalam bahasa Inggris dan Indonesia.
 
 ## Keterbatasan
 Hasil LLM dilaporkan berdasarkan evaluasi pada set data training penuh, bukan pada test set terpisah atau cross-validation, sehingga tidak mengukur generalisasi model seketat evaluasi 5-fold yang digunakan pada RoBERTa. Inferensi LLM juga membutuhkan biaya komputasi yang relatif besar dibandingkan waktu training.
@@ -76,8 +77,9 @@ Python, PyTorch, Hugging Face Transformers, Unsloth, QLoRA, RoBERTa-base, Qwen2.
 
 ## Repository Contents
 - `DimASTE_dataset.jsonl` — cleaned training dataset (English, restaurant and laptop domains).
-- `AspectSentimentExtraction.ipynb` — full pipeline notebook (RoBERTa pipeline, LLM fine-tuning, evaluation).
-- `README.md` / `README_ID.md` — project documentation in English and Indonesian.
+- `LLM_AspectSentiment.ipynb` — full pipeline notebook (LLM fine-tuning and evaluation).
+- `RoBERTa_AspectSentiment.ipynb` — full pipeline notebook (RoBERTa pipeline and evaluation).
+- `README.md` — project documentation in English and Indonesian.
 
 ## Limitations
 LLM results are reported on the full training set rather than a held-out test set or cross-validation, which does not measure generalization as rigorously as the 5-fold evaluation used for RoBERTa. LLM inference is also computationally expensive relative to training time.
